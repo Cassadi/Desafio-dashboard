@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+aside {
+    float: left;
+    margin-left: -30px;
+    min-height: 100vh;
+    max-width: 50vh;
+    display: inline;
+    background-color: #78B843;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 18vw;
+    padding: 2px;
+    border: 10px outset darkgreen;
+}
+
+li {
+    margin-right: 20px;
+    line-height: 10vh;
+    list-style: none;
+}
+
+#cards {
+    margin-top: 2vw;
+    margin-left: 1vw;
+    display: inline-block;
+    word-spacing: 4vw;
+    text-align: center;
+}
+
+.img {
+    width: 20vw;
+    height: 33vh;
+    object-fit: cover;
+    object-position: 70% 33%;
+    border: 5px solid black;
+}
+
+.fieldset-border {
+    margin: 1vh;
+    text-align: center;
+    font-size: 20px;
+}
+
+#tabela1 {
+    max-height: 38vh;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    width: 67vw;
+    display: none;
+}
+
+#tabela2 {
+    max-height: 38vh;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    width: 67vw;
+    display: none;
+}
+
+#tabela3 {
+    max-height: 38vh;
+    overflow-y: scroll;
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    width: 67vw;
+    display: none;
+}
+
+.tabela {
+    width: 65vw;
+}
+
+th,
+tr,
+table,
+button {
+    border-color: #78B843;
+    background-color: lightgray;
+}
+
+button {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05)
+}
